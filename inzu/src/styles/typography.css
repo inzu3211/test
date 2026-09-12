@@ -1,0 +1,94 @@
+/* ─── DISPLAY — Large neo-grotesk, editorial headlines ─── */
+.text-display {
+  font-family: var(--font-display);
+  font-weight: 500;
+  letter-spacing: -0.03em;
+  line-height: 0.9;
+  text-transform: uppercase;
+}
+
+.text-hero {
+  font-family: var(--font-display);
+  font-size: var(--text-hero);
+  font-weight: 600;
+  letter-spacing: -0.04em;
+  line-height: 0.85;
+  text-transform: uppercase;
+  color: var(--color-white);
+}
+
+.text-headline {
+  font-family: var(--font-display);
+  font-size: var(--text-display);
+  font-weight: 500;
+  letter-spacing: -0.03em;
+  line-height: 0.92;
+  text-transform: uppercase;
+  color: var(--color-white);
+}
+
+.text-subheadline {
+  font-family: var(--font-display);
+  font-size: var(--text-heading);
+  font-weight: 400;
+  letter-spacing: -0.02em;
+  line-height: 1.1;
+  color: var(--color-white-dim);
+}
+
+/* ─── BODY — Clean, readable ─── */
+.text-body {
+  font-family: var(--font-body);
+  font-size: var(--text-body);
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 1.6;
+  color: var(--color-white-dim);
+}
+
+.text-body-light {
+  font-family: var(--font-body);
+  font-size: var(--text-body);
+  font-weight: 300;
+  letter-spacing: 0.01em;
+  line-height: 1.7;
+  color: var(--color-white-dim);
+}
+
+/* ─── TECHNICAL — Monospace, coordinates, metadata ─── */
+.text-technical {
+  font-family: var(--font-mono);
+  font-size: var(--text-small);
+  font-weight: 400;
+  letter-spacing: 0.05em;
+  line-height: 1.4;
+  text-transform: uppercase;
+  color: var(--color-technical);
+}
+
+.text-micro {
+  font-family: var(--font-mono);
+  font-size: var(--text-micro);
+  font-weight: 300;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--color-white-ghost);
+}
+
+.text-label {
+  font-family: var(--font-mono);
+  font-size: var(--text-small);
+  font-weight: 500;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--color-white-dim);
+}
+
+.text-system {
+  font-family: var(--font-mono);
+  font-size: var(--text-small);
+  font-weight: 400;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--color-scan);
+}
